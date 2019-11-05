@@ -14,12 +14,26 @@ If you have a solution to propose, take a branch and open a Pull Request.
   ```java
   public class Foo {
     void bar() {
-      
+      //...
     }
   }
   ```
 
-### Javadoc
+### Whitespace
+- Tabs are preferred over spaces, but this is up to debate and personal preference, as it doesn't _really_ effect anything
+- There shouldn't be whitespace between a method name/class name/if/while/for/etc and its opening parenthesis
+- There should be a single space between a closing parenthesis and a curly bracket as shown
+- Most operators should be separated from their arguments
+  - Exceptions: `Class::method` 
+  ```java
+  void foo(int a, int b) {
+    while(a < b) {
+      //...
+    }
+  }
+  ```
+
+### Javadocs
 Methods and classes should have proper Javadoc comments giving a description of the method, its parameters, and its return value. 
 The presense and proper use of Javadoc comments allows Java IDEs such as Eclipse and Intellij to display the given explanations 
 when, for example, a method call is moused-over.
@@ -31,6 +45,6 @@ when, for example, a method call is moused-over.
     * @return Some value
     */
    int foo(int a) {
-   
+      //...
    }
    ```
