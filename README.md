@@ -20,7 +20,7 @@ If you have a solution to propose, take a branch and open a Pull Request.
   ```
 
 ### Whitespace
-- Tabs are preferred over spaces, but this is up to debate and personal preference, as it doesn't _really_ effect anything
+- Spaces are preferred over tabs, but this is up to debate and personal preference, as it doesn't _really_ effect anything
 - There shouldn't be whitespace between a method name/class name/if/while/for/etc and its opening parenthesis
 - There should be a single space between a closing parenthesis and a curly bracket as shown
 - Most operators should be separated from their arguments
